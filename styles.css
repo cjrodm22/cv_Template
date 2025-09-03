@@ -242,25 +242,3 @@ footer i {
     /* degradado usando tu paleta */
 }
 
-
-section ul {
-    list-style: none; /* quitamos las viñetas por defecto */
-    padding: 0;
-}
-
-section ul li {
-    position: relative;
-    padding-left: 25px; /* espacio para el cuadrado */
-    margin-bottom: 8px;
-}
-
-section ul li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 6px;
-    width: 12px;
-    height: 12px;
-    background-color: #1abc9c; /* color de la paleta */
-    border-radius: 3px; /* si quieres que sea cuadrado perfecto usa 0px */
-}

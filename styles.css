@@ -242,3 +242,34 @@ footer i {
     /* degradado usando tu paleta */
 }
 
+/* Tablets / pantallas medianas */
+@media screen and (max-width: 992px) {
+    header, nav, main, footer {
+        max-width: 95%;
+    }
+}
+
+/* Móviles */
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+    aside, section {
+        max-width: 100%;
+    }
+    header, nav, footer {
+        text-align: center;
+    }
+    header h1 {
+        font-size: 1.8rem;
+        margin: 10px 0;
+    }
+    header h2 {
+        font-size: 1rem;
+        margin: 5px 0 15px;
+    }
+    .profile-pic img {
+        width: 150px;
+        height: 150px;
+    }
+}
